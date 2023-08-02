@@ -14,6 +14,14 @@ struct VegetablesCoordinatorView: View {
     var body: some View {
         NavigationStack(path: $coordinator.path) {
             coordinator.build(.vegetables)
+                .alert("Error", isPresented: $coordinator.hasError, actions: {
+                    Button("Ok", role: .cancel) {
+                        print("alert dismiss")
+                    }
+                }, message: {
+                    Text(coordinator.error?.localizedDescription
+                         ?? VegetableError.unknown.localizedDescription)
+                })
         }
         .environmentObject(coordinator)
     }
