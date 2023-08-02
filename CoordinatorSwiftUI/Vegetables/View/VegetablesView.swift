@@ -14,7 +14,21 @@ struct VegetablesView: View {
     
     var body: some View {
         List {
-            Button("To fruits") {
+            Section {
+                Button("Alert 🥦") {
+                    coordinator.presentAlert(error: VegetableError.over(vegetable: "🥦"))
+                }
+                
+                Button("Sheet 🍅") {
+                    coordinator.present(sheet: .tomato)
+                }
+                
+                Button("Dynamic Sheet 🥑") {
+                    coordinator.present(sheet: .avocado)
+                }
+            }
+            
+            Button("To fruits 🍒") {
                 tabCoordinator.change(.fruits)
             }
 
