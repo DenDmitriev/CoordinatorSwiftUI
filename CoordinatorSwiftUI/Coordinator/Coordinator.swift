@@ -7,26 +7,6 @@
 
 import SwiftUI
 
-protocol CoordinatorProtocol: ObservableObject {
-    associatedtype V: View
-    associatedtype Router: NavigationRouter
-    
-    var path: NavigationPath { get set }
-    var sheet: Router?  { get set }
-    var cover: Router?  { get set }
-    
-    @ViewBuilder
-    func build(_ route: Router) -> V
-    
-    func push(_ page: Router)
-    func pop()
-    func popToRoot()
-    func present(sheet: Router)
-    func dismissSheet()
-    func present(cover: Router)
-    func dismissCover()
-}
-
 class Coordinator<Router: NavigationRouter>: ObservableObject {
     
     @Published var path = NavigationPath()
