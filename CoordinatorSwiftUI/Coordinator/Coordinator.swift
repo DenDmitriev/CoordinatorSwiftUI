@@ -10,8 +10,13 @@ import SwiftUI
 class Coordinator<Router: NavigationRouter>: ObservableObject {
     
     @Published var path = NavigationPath()
+    
     @Published var sheet: Router?
     @Published var cover: Router?
+    
+    @Published var hasError: Bool = false
+    
+    var error: LocalizedError?
     
     func push(_ page: Router) {
         path.append(page)
@@ -39,6 +44,11 @@ class Coordinator<Router: NavigationRouter>: ObservableObject {
     
     func dismissCover() {
         cover = nil
+    }
+    
+    func presentAlert(error: LocalizedError) {
+        self.error = error
+        hasError = true
     }
     
     @ViewBuilder

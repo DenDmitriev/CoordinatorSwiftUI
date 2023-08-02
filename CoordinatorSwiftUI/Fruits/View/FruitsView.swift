@@ -10,6 +10,7 @@ import SwiftUI
 struct FruitsView: View {
     
     @EnvironmentObject var coordinator: Coordinator<FruitsRouter>
+    @EnvironmentObject var tabCoordinator: TabCoordinator<TabRouter>
     
     @State var count: String = ""
     
@@ -30,6 +31,12 @@ struct FruitsView: View {
                 
                 Button("Cover 🍉") {
                     coordinator.present(cover: .watermelon(count: Int(count) ?? .zero))
+                }
+            }
+            
+            Section {
+                Button("Tab 🥕") {
+                    tabCoordinator.change(.vegetables)
                 }
             }
         }
