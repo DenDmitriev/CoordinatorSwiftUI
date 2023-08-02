@@ -10,8 +10,10 @@ import SwiftUI
 class Coordinator<Router: NavigationRouter>: ObservableObject {
     
     @Published var path = NavigationPath()
+    
     @Published var sheet: Router?
     @Published var cover: Router?
+    
     @Published var hasError: Bool = false
     
     var error: LocalizedError?

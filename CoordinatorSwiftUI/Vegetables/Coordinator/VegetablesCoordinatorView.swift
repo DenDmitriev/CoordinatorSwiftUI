@@ -10,6 +10,7 @@ import SwiftUI
 struct VegetablesCoordinatorView: View {
     
     @StateObject var coordinator: Coordinator<VegetablesRouter>
+    @State private var sheetSize: CGSize = .zero
     
     var body: some View {
         NavigationStack(path: $coordinator.path) {
@@ -22,6 +23,24 @@ struct VegetablesCoordinatorView: View {
                     Text(coordinator.error?.localizedDescription
                          ?? VegetableError.unknown.localizedDescription)
                 })
+                .sheet(item: $coordinator.sheet) { sheet in
+                    switch sheet.style {
+                    case .fit:
+                        coordinator.build(sheet)
+                            .padding()
+                            .background() {
+                                GeometryReader { geometry in
+                                    Path { path in
+                                        sheetSize = geometry.size
+                                    }
+                                }
+                            }
+                            .presentationDetents([.height(sheetSize.height), .medium, .large])
+                    default:
+                        coordinator.build(sheet)
+                    }
+                    
+                }
         }
         .environmentObject(coordinator)
     }

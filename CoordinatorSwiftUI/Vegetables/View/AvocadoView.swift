@@ -10,6 +10,8 @@ import SwiftUI
 struct AvocadoView: View {
     var body: some View {
         Text("🥑")
+            .font(.system(size: 150))
+            .frame(maxWidth: .infinity, alignment: .center)
     }
 }
 

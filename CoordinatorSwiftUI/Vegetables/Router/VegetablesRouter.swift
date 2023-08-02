@@ -10,9 +10,19 @@ import SwiftUI
 enum VegetablesRouter: NavigationRouter {
     case vegetables
     case avocado
+    case tomato
     
     var id: Self {
         self
+    }
+    
+    var style: TransitionStyle? {
+        switch self {
+        case .avocado:
+            return .fit
+        default:
+            return nil
+        }
     }
     
     @ViewBuilder
@@ -22,6 +32,8 @@ enum VegetablesRouter: NavigationRouter {
             VegetablesView()
         case .avocado:
             AvocadoView()
+        case .tomato:
+            TomatoView()
         }
     }
 }

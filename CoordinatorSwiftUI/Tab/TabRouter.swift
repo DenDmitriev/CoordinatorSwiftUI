@@ -15,6 +15,10 @@ enum TabRouter: NavigationRouter {
         return self
     }
     
+    var style: TransitionStyle? {
+        return nil
+    }
+    
     @ViewBuilder
     func view() -> some View {
         switch self {
