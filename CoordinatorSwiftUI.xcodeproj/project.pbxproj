@@ -28,6 +28,7 @@
 		954FB5B22A7A9E8A0055A6E2 /* AvocadoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FB5B12A7A9E8A0055A6E2 /* AvocadoView.swift */; };
 		954FB5B42A7AB54D0055A6E2 /* VegetableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FB5B32A7AB54D0055A6E2 /* VegetableError.swift */; };
 		954FB5B62A7ADBFB0055A6E2 /* TomatoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FB5B52A7ADBFB0055A6E2 /* TomatoView.swift */; };
+		954FB5B82A7ADD5C0055A6E2 /* TransitionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FB5B72A7ADD5C0055A6E2 /* TransitionStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		954FB5B12A7A9E8A0055A6E2 /* AvocadoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoView.swift; sourceTree = "<group>"; };
 		954FB5B32A7AB54D0055A6E2 /* VegetableError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableError.swift; sourceTree = "<group>"; };
 		954FB5B52A7ADBFB0055A6E2 /* TomatoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoView.swift; sourceTree = "<group>"; };
+		954FB5B72A7ADD5C0055A6E2 /* TransitionStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				954FB58F2A7A45040055A6E2 /* Coordinator.swift */,
 				954FB5842A7A40F10055A6E2 /* NavigationRouter.swift */,
+				954FB5B72A7ADD5C0055A6E2 /* TransitionStyle.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				954FB5B42A7AB54D0055A6E2 /* VegetableError.swift in Sources */,
 				954FB5982A7A5EC70055A6E2 /* WatermelonView.swift in Sources */,
 				954FB5A42A7A8A510055A6E2 /* TabRouter.swift in Sources */,
+				954FB5B82A7ADD5C0055A6E2 /* TransitionStyle.swift in Sources */,
 				954FB58D2A7A444D0055A6E2 /* CherryView.swift in Sources */,
 				954FB5A62A7A8BA90055A6E2 /* VegetablesRouter.swift in Sources */,
 				954FB5852A7A40F10055A6E2 /* NavigationRouter.swift in Sources */,

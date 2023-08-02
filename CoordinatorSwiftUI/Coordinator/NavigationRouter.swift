@@ -7,10 +7,6 @@
 
 import SwiftUI
 
-enum TransitionStyle {
-    case fit
-}
-
 protocol NavigationRouter: Hashable, Identifiable {
     associatedtype V: View
     
