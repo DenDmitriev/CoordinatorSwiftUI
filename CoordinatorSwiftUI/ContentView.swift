@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        FruitsCoordinatorView(coordinator: Coordinator<FruitsRouter>())
+        TabCoordinatorView(coordinator: TabCoordinator<TabRouter>(tab: .fruits))
     }
 }
 
