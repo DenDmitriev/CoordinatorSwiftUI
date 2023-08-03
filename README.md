@@ -22,7 +22,7 @@ https://github.com/DenDmitriev/CoordinatorSwiftUI/blob/da80bda8ea8e192ca1a21382e
 
 | Navigation in App | Navigation from Widget  |
 | ------- | --- |
-| https://github.com/DenDmitriev/CoordinatorSwiftUI/assets/65191747/41dd90c1-b737-4b8d-ae0b-7018c686f267 | https://github.com/DenDmitriev/CoordinatorSwiftUI/assets/65191747/3232cc09-601c-4070-a00f-919a908706e4 |
+| <video src="https://github.com/DenDmitriev/CoordinatorSwiftUI/assets/65191747/41dd90c1-b737-4b8d-ae0b-7018c686f267"> | <video src="https://github.com/DenDmitriev/CoordinatorSwiftUI/assets/65191747/3232cc09-601c-4070-a00f-919a908706e4"> |
 
 
 Coordinator
