@@ -35,7 +35,7 @@ struct FruitsCoordinatorView: View {
             case Fruit.lemon.title:
                 coordinator.present(sheet: .lemon(count: 1))
             case Fruit.watermelon.title:
-                coordinator.present(cover: .lemon(count: 1))
+                coordinator.present(cover: .watermelon(count: 1))
             default:
                 return
             }
