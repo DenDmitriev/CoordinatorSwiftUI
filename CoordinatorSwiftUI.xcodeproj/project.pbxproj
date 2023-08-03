@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9548714A2A7B8C7B009E0619 /* WidgetURLCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954871482A7B8C6D009E0619 /* WidgetURLCreator.swift */; };
+		9548714E2A7B8DD3009E0619 /* Emojable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9548714B2A7B8D70009E0619 /* Emojable.swift */; };
+		954871522A7B9ABA009E0619 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FB5E22A7B8AAE0055A6E2 /* Fruit.swift */; };
+		954871532A7B9B1E009E0619 /* Titleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FB5DE2A7B8A370055A6E2 /* Titleable.swift */; };
+		954871542A7B9B1E009E0619 /* Emojable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9548714B2A7B8D70009E0619 /* Emojable.swift */; };
+		954871552A7B9B35009E0619 /* WidgetURLCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954871482A7B8C6D009E0619 /* WidgetURLCreator.swift */; };
 		954FB5762A7A40CD0055A6E2 /* CoordinatorSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FB5752A7A40CD0055A6E2 /* CoordinatorSwiftUIApp.swift */; };
 		954FB5782A7A40CD0055A6E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FB5772A7A40CD0055A6E2 /* ContentView.swift */; };
 		954FB57A2A7A40CF0055A6E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954FB5792A7A40CF0055A6E2 /* Assets.xcassets */; };
@@ -29,9 +35,43 @@
 		954FB5B42A7AB54D0055A6E2 /* VegetableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FB5B32A7AB54D0055A6E2 /* VegetableError.swift */; };
 		954FB5B62A7ADBFB0055A6E2 /* TomatoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FB5B52A7ADBFB0055A6E2 /* TomatoView.swift */; };
 		954FB5B82A7ADD5C0055A6E2 /* TransitionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FB5B72A7ADD5C0055A6E2 /* TransitionStyle.swift */; };
+		954FB5C02A7B70A60055A6E2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954FB5BF2A7B70A60055A6E2 /* WidgetKit.framework */; };
+		954FB5C22A7B70A60055A6E2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954FB5C12A7B70A60055A6E2 /* SwiftUI.framework */; };
+		954FB5C52A7B70A60055A6E2 /* CoordinatorWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FB5C42A7B70A60055A6E2 /* CoordinatorWidgetBundle.swift */; };
+		954FB5C72A7B70A60055A6E2 /* CoordinatorWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FB5C62A7B70A60055A6E2 /* CoordinatorWidget.swift */; };
+		954FB5C92A7B70A70055A6E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954FB5C82A7B70A70055A6E2 /* Assets.xcassets */; };
+		954FB5CD2A7B70A70055A6E2 /* CoordinatorWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 954FB5BD2A7B70A60055A6E2 /* CoordinatorWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		954FB5E02A7B8A440055A6E2 /* Titleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FB5DE2A7B8A370055A6E2 /* Titleable.swift */; };
+		954FB5E42A7B8B2A0055A6E2 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FB5E22A7B8AAE0055A6E2 /* Fruit.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		954FB5CB2A7B70A70055A6E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 954FB56A2A7A40CD0055A6E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954FB5BC2A7B70A60055A6E2;
+			remoteInfo = CoordinatorWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		954FB5CE2A7B70A70055A6E2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				954FB5CD2A7B70A70055A6E2 /* CoordinatorWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		954871482A7B8C6D009E0619 /* WidgetURLCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetURLCreator.swift; sourceTree = "<group>"; };
+		9548714B2A7B8D70009E0619 /* Emojable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emojable.swift; sourceTree = "<group>"; };
 		954FB5722A7A40CD0055A6E2 /* CoordinatorSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		954FB5752A7A40CD0055A6E2 /* CoordinatorSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorSwiftUIApp.swift; sourceTree = "<group>"; };
 		954FB5772A7A40CD0055A6E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +95,15 @@
 		954FB5B32A7AB54D0055A6E2 /* VegetableError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableError.swift; sourceTree = "<group>"; };
 		954FB5B52A7ADBFB0055A6E2 /* TomatoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoView.swift; sourceTree = "<group>"; };
 		954FB5B72A7ADD5C0055A6E2 /* TransitionStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionStyle.swift; sourceTree = "<group>"; };
+		954FB5BD2A7B70A60055A6E2 /* CoordinatorWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CoordinatorWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		954FB5BF2A7B70A60055A6E2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		954FB5C12A7B70A60055A6E2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		954FB5C42A7B70A60055A6E2 /* CoordinatorWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorWidgetBundle.swift; sourceTree = "<group>"; };
+		954FB5C62A7B70A60055A6E2 /* CoordinatorWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorWidget.swift; sourceTree = "<group>"; };
+		954FB5C82A7B70A70055A6E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		954FB5CA2A7B70A70055A6E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954FB5DE2A7B8A370055A6E2 /* Titleable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Titleable.swift; sourceTree = "<group>"; };
+		954FB5E22A7B8AAE0055A6E2 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +114,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		954FB5BA2A7B70A60055A6E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954FB5C22A7B70A60055A6E2 /* SwiftUI.framework in Frameworks */,
+				954FB5C02A7B70A60055A6E2 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9548714D2A7B8DCB009E0619 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				954FB5E22A7B8AAE0055A6E2 /* Fruit.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		9548714F2A7B8FD3009E0619 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				954871482A7B8C6D009E0619 /* WidgetURLCreator.swift */,
+				954FB5DE2A7B8A370055A6E2 /* Titleable.swift */,
+				9548714B2A7B8D70009E0619 /* Emojable.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		954FB5692A7A40CD0055A6E2 = {
 			isa = PBXGroup;
 			children = (
 				954FB5742A7A40CD0055A6E2 /* CoordinatorSwiftUI */,
+				954FB5C32A7B70A60055A6E2 /* CoordinatorWidget */,
+				954FB5BE2A7B70A60055A6E2 /* Frameworks */,
 				954FB5732A7A40CD0055A6E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				954FB5722A7A40CD0055A6E2 /* CoordinatorSwiftUI.app */,
+				954FB5BD2A7B70A60055A6E2 /* CoordinatorWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -209,6 +288,28 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		954FB5BE2A7B70A60055A6E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				954FB5BF2A7B70A60055A6E2 /* WidgetKit.framework */,
+				954FB5C12A7B70A60055A6E2 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		954FB5C32A7B70A60055A6E2 /* CoordinatorWidget */ = {
+			isa = PBXGroup;
+			children = (
+				954FB5C42A7B70A60055A6E2 /* CoordinatorWidgetBundle.swift */,
+				954FB5C62A7B70A60055A6E2 /* CoordinatorWidget.swift */,
+				9548714D2A7B8DCB009E0619 /* Entity */,
+				9548714F2A7B8FD3009E0619 /* Core */,
+				954FB5C82A7B70A70055A6E2 /* Assets.xcassets */,
+				954FB5CA2A7B70A70055A6E2 /* Info.plist */,
+			);
+			path = CoordinatorWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -219,15 +320,34 @@
 				954FB56E2A7A40CD0055A6E2 /* Sources */,
 				954FB56F2A7A40CD0055A6E2 /* Frameworks */,
 				954FB5702A7A40CD0055A6E2 /* Resources */,
+				954FB5CE2A7B70A70055A6E2 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				954FB5CC2A7B70A70055A6E2 /* PBXTargetDependency */,
 			);
 			name = CoordinatorSwiftUI;
 			productName = CoordinatorSwiftUI;
 			productReference = 954FB5722A7A40CD0055A6E2 /* CoordinatorSwiftUI.app */;
 			productType = "com.apple.product-type.application";
+		};
+		954FB5BC2A7B70A60055A6E2 /* CoordinatorWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954FB5D12A7B70A70055A6E2 /* Build configuration list for PBXNativeTarget "CoordinatorWidgetExtension" */;
+			buildPhases = (
+				954FB5B92A7B70A60055A6E2 /* Sources */,
+				954FB5BA2A7B70A60055A6E2 /* Frameworks */,
+				954FB5BB2A7B70A60055A6E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoordinatorWidgetExtension;
+			productName = CoordinatorWidgetExtension;
+			productReference = 954FB5BD2A7B70A60055A6E2 /* CoordinatorWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -240,6 +360,9 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					954FB5712A7A40CD0055A6E2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					954FB5BC2A7B70A60055A6E2 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -258,6 +381,7 @@
 			projectRoot = "";
 			targets = (
 				954FB5712A7A40CD0055A6E2 /* CoordinatorSwiftUI */,
+				954FB5BC2A7B70A60055A6E2 /* CoordinatorWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -272,6 +396,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		954FB5BB2A7B70A60055A6E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954FB5C92A7B70A70055A6E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -281,13 +413,16 @@
 			files = (
 				954FB5A12A7A8A1D0055A6E2 /* VegetablesView.swift in Sources */,
 				954FB5902A7A45040055A6E2 /* Coordinator.swift in Sources */,
+				954871532A7B9B1E009E0619 /* Titleable.swift in Sources */,
 				954FB5AA2A7A8C5A0055A6E2 /* VegetablesCoordinatorView.swift in Sources */,
 				954FB58B2A7A43980055A6E2 /* FruitsView.swift in Sources */,
 				954FB5942A7A546D0055A6E2 /* FruitsCoordinatorView.swift in Sources */,
 				954FB5962A7A5D9B0055A6E2 /* LemonView.swift in Sources */,
 				954FB5782A7A40CD0055A6E2 /* ContentView.swift in Sources */,
+				954871552A7B9B35009E0619 /* WidgetURLCreator.swift in Sources */,
 				954FB5892A7A41B50055A6E2 /* FruitsRouter.swift in Sources */,
 				954FB5B22A7A9E8A0055A6E2 /* AvocadoView.swift in Sources */,
+				954871542A7B9B1E009E0619 /* Emojable.swift in Sources */,
 				954FB5762A7A40CD0055A6E2 /* CoordinatorSwiftUIApp.swift in Sources */,
 				954FB5B62A7ADBFB0055A6E2 /* TomatoView.swift in Sources */,
 				954FB5AC2A7A8D180055A6E2 /* TabCoordinatorView.swift in Sources */,
@@ -297,12 +432,34 @@
 				954FB5A42A7A8A510055A6E2 /* TabRouter.swift in Sources */,
 				954FB5B82A7ADD5C0055A6E2 /* TransitionStyle.swift in Sources */,
 				954FB58D2A7A444D0055A6E2 /* CherryView.swift in Sources */,
+				954871522A7B9ABA009E0619 /* Fruit.swift in Sources */,
 				954FB5A62A7A8BA90055A6E2 /* VegetablesRouter.swift in Sources */,
 				954FB5852A7A40F10055A6E2 /* NavigationRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		954FB5B92A7B70A60055A6E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954FB5E42A7B8B2A0055A6E2 /* Fruit.swift in Sources */,
+				954FB5C72A7B70A60055A6E2 /* CoordinatorWidget.swift in Sources */,
+				9548714A2A7B8C7B009E0619 /* WidgetURLCreator.swift in Sources */,
+				954FB5E02A7B8A440055A6E2 /* Titleable.swift in Sources */,
+				9548714E2A7B8DD3009E0619 /* Emojable.swift in Sources */,
+				954FB5C52A7B70A60055A6E2 /* CoordinatorWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		954FB5CC2A7B70A70055A6E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 954FB5BC2A7B70A60055A6E2 /* CoordinatorWidgetExtension */;
+			targetProxy = 954FB5CB2A7B70A70055A6E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		954FB57E2A7A40CF0055A6E2 /* Debug */ = {
@@ -422,6 +579,7 @@
 		954FB5812A7A40CF0055A6E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +609,7 @@
 		954FB5822A7A40CF0055A6E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -477,6 +636,60 @@
 			};
 			name = Release;
 		};
+		954FB5CF2A7B70A70055A6E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TNTX3799P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoordinatorWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CoordinatorWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DenisDmitriev.CoordinatorSwiftUI.CoordinatorWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		954FB5D02A7B70A70055A6E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TNTX3799P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoordinatorWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CoordinatorWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DenisDmitriev.CoordinatorSwiftUI.CoordinatorWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -494,6 +707,15 @@
 			buildConfigurations = (
 				954FB5812A7A40CF0055A6E2 /* Debug */,
 				954FB5822A7A40CF0055A6E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954FB5D12A7B70A70055A6E2 /* Build configuration list for PBXNativeTarget "CoordinatorWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954FB5CF2A7B70A70055A6E2 /* Debug */,
+				954FB5D02A7B70A70055A6E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
