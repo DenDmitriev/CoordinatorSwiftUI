@@ -26,6 +26,20 @@ struct FruitsCoordinatorView: View {
                 }
         }
         .environmentObject(coordinator)
+        .onOpenURL { url in
+            print(url)
+            guard url.scheme == "coordinatorApp" else { return }
+            switch url.host() {
+            case Fruit.cherry.title:
+                coordinator.push(.cherry(count: 1))
+            case Fruit.lemon.title:
+                coordinator.present(sheet: .lemon(count: 1))
+            case Fruit.watermelon.title:
+                coordinator.present(cover: .watermelon(count: 1))
+            default:
+                return
+            }
+        }
     }
 }
 

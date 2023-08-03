@@ -17,6 +17,19 @@ enum FruitsRouter: NavigationRouter {
         return self
     }
     
+    var title: String? {
+        switch self {
+        case .fruits:
+            return "fruits"
+        case .cherry:
+            return "cherry"
+        case .lemon:
+            return "lemon"
+        case .watermelon:
+            return "watermelon"
+        }
+    }
+    
     var style: TransitionStyle? {
         return nil
     }

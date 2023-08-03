@@ -7,6 +7,7 @@ Simple coordinator with router
 - Present sheet and with dynamically height sheet
 - Present full screen cover
 - Alert with error
+- Route from widget through coordinator
 
 # Router
 https://github.com/DenDmitriev/CoordinatorSwiftUI/blob/da80bda8ea8e192ca1a21382eb7cda1b10e7a340/CoordinatorSwiftUI/Coordinator/NavigationRouter.swift#L10-L17
@@ -19,7 +20,9 @@ https://github.com/DenDmitriev/CoordinatorSwiftUI/blob/da80bda8ea8e192ca1a21382e
 
 # Example
 
-https://github.com/DenDmitriev/CoordinatorSwiftUI/assets/65191747/41dd90c1-b737-4b8d-ae0b-7018c686f267
+| Navigation in App | Navigation from Widget  |
+| ------- | --- |
+| https://github.com/DenDmitriev/CoordinatorSwiftUI/assets/65191747/41dd90c1-b737-4b8d-ae0b-7018c686f267 | https://github.com/DenDmitriev/CoordinatorSwiftUI/assets/65191747/3232cc09-601c-4070-a00f-919a908706e4 |
 
 
 Coordinator
