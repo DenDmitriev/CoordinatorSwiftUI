@@ -15,6 +15,15 @@ enum TabRouter: NavigationRouter {
         return self
     }
     
+    var title: String? {
+        switch self {
+        case .vegetables:
+            return "vegetables"
+        case .fruits:
+            return "fruits"
+        }
+    }
+    
     var style: TransitionStyle? {
         return nil
     }

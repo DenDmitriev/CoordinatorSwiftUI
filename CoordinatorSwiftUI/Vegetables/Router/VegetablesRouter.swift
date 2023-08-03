@@ -16,6 +16,17 @@ enum VegetablesRouter: NavigationRouter {
         self
     }
     
+    var title: String? {
+        switch self {
+        case .vegetables:
+            return "vegetables"
+        case .avocado:
+            return "avocado"
+        case .tomato:
+            return "tomato"
+        }
+    }
+    
     var style: TransitionStyle? {
         switch self {
         case .avocado:
